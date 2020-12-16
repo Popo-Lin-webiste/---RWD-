@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Noto Sans TC','Roboto', sans-serif;
+  line-height: 1.5;
 }
 
 *,*:before,*:after{
@@ -31,13 +32,13 @@ h1 a{
 
 .header li{
   font-size: 20px;
-  margin-left: 64px;
 }
 
 .header a{
   text-decoration: none;
   color:#fff;
   display: block;
+  padding: 16px 32px;
 }
 
 .header li a:hover{
@@ -226,7 +227,7 @@ last-page, next-page{
 }
 
 .wrap{
-  width: 1110px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
